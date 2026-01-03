@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9800, #ff5722);
+  min-height: 100vh;
+  margin: 0;
+
+  /* THIS IS THE KEY FIX */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TOP HEADING */
+.main-title {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 40px;   /* space between heading and card */
+  font-size: 32px;
+  text-align: center;
+}
+
+/* WHITE CARD */
+.card {
+  background: white;
+  padding: 30px;
+  width: 320px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* INNER HEADING */
+.app-title {
+  margin-bottom: 25px;
+  color: #ff5722;
+}
+
+.input-section {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+.result-section {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.loading {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
+.icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.desc {
+  text-transform: capitalize;
+}
+
+
